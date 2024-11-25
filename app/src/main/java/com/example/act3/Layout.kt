@@ -34,22 +34,22 @@ fun Layout(modifier: Modifier = Modifier){
     Column(modifier = modifier.fillMaxSize()) {
         TampilanHeader()
         DetailMahasiswa(
-            judul = "Nama", isinya = "Farhan"
+            judul = "Nama", isinya = "Maajid"
         )
         DetailMahasiswa(
-            judul = "NIM", isinya = "2020"
+            judul = "NIM", isinya = "2022"
 
         )
         DetailMahasiswa(
-            judul = "Alamat", isinya = "BANTUL"
+            judul = "Alamat", isinya = "Sleman"
 
         )
         DetailMahasiswa(
-            judul = "Email", isinya = "farhan@gmail.com"
+            judul = "Email", isinya = "maajid808@gmail.com"
 
         )
         DetailMahasiswa(
-            judul = "No HP", isinya = "089234567"
+            judul = "No HP", isinya = "081259890076"
 
         )
     }
@@ -106,11 +106,11 @@ fun DetailMahasiswa(
     judul: String,
     isinya: String,
 ){
-Row ( modifier = Modifier
-    .fillMaxWidth()
-    .padding(16.dp),
+    Row ( modifier = Modifier
+        .fillMaxWidth()
+        .padding(16.dp),
 
-    horizontalArrangement = Arrangement.SpaceBetween){
+        horizontalArrangement = Arrangement.SpaceBetween){
         Text(judul, modifier = Modifier.weight(0.8f))
         Text(":", modifier = Modifier.weight(0.2f))
         Text(isinya, modifier = Modifier.weight(2f))
