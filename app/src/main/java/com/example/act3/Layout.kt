@@ -37,7 +37,7 @@ fun Layout(modifier: Modifier = Modifier){
             judul = "Nama", isinya = "Maajid"
         )
         DetailMahasiswa(
-            judul = "NIM", isinya = "2022"
+            judul = "NIM", isinya = "20220140157"
 
         )
         DetailMahasiswa(
